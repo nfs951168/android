@@ -6,10 +6,6 @@ To request the new notification permission from your app, update your app to tar
 
 The permission that you need to declare in your app's manifest file appears in the following code snippet:
 
-<manifest ...>
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
-    <application ...>
-        ...
-    </application>
-</manifest>
+<uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
 
+More info on https://developer.android.com/develop/ui/views/notifications/notification-permission
