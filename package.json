@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nfs951168/cordova-allow-notifications.git"
+    "url": "git+https://github.com/nfs951168/cordova-plugin-allow-notifications.git"
   },
   "keywords": [
     "cordova"
@@ -16,9 +16,9 @@
   "author": "Nuno Fernandes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nfs951168/cordova-allow-notifications/issues"
+    "url": "https://github.com/nfs951168/cordova-plugin-allow-notifications/issues"
   },
-  "homepage": "https://github.com/nfs951168/cordova-allow-notifications#readme",
+  "homepage": "https://github.com/nfs951168/cordova-plugin-allow-notifications#readme",
   "devDependencies": {
     "pluginpub": "0.0.8"
   }
