@@ -1,15 +1,15 @@
 # cordova-plugin-allow-notifications
 
-To allow you to set add to Manifest.xml the uses-permission tag
+Android 13 (API level 33) and higher supports a runtime permission for sending non-exempt (including Foreground Services (FGS)) notifications from an app: POST_NOTIFICATIONS. This change helps users focus on the notifications that are most important to them.
 
+To request the new notification permission from your app, update your app to target Android 13 and complete a similar process compared to requesting other runtime permissions, as shown in the following sections.
 
-So I totally biffed on the fact that edit-config is now supported in config.xml as well as plugin.xml so you don't need the above plugin. All you need to do is add an edit-config section to your config.xml file like this:
+The permission that you need to declare in your app's manifest file appears in the following code snippet:
 
-<platform name="android">
-    <edit-config file="AndroidManifest.xml"
-                 target="/manifest/application"
-                 mode="merge">
-        <application android:allowBackup="false"/>
-    </edit-config>
-</platform>
+<manifest ...>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <application ...>
+        ...
+    </application>
+</manifest>
 
