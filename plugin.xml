@@ -9,7 +9,6 @@
     <engine name="cordova" version=">=6.4.0"/>
     <engine name="cordova-android" version=">=6.0.0"/>
   </engines>
-  <preference name="BACKUP" default="false"/>
   <platform name="android">
     <config-file parent="/*" target="AndroidManifest.xml">
         <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
