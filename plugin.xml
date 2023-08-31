@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:amazon="http://schemas.android.com/apk/lib/com.amazon.device.ads" xmlns:rim="http://www.blackberry.com/ns/widgets" id="cordova-plugin-allow-backup" version="0.0.2">
   <name>cordova-plugin-allow-notifications</name>
   <description>
-		Active ask permissions to send notifications on Android 13
+		For Android 13 and higher allows to request the new notification permission from your app
 	</description>
   <license>MIT</license>
   <engines>
